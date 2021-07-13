@@ -14,11 +14,15 @@ header{
 }
 .web-banner{
   display: inline-block;
+  vertical-align:middle;
+}
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh)!important;
 }
 /*this body style*/
 section{
   margin: auto;
-  width:45rem;
+  max-width:45rem;
 }
 .section-container{
   border-radius:5px;
@@ -35,4 +39,20 @@ section{
 }
 .tab-content{
   text-align: left;
+}
+.carousel{
+  min-height:431px;
+}
+.carousel, .jumbotron{
+  background-color: black !important;
+  color: white;
+  text-align: center;
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+  background-color: rgba(232, 239, 239, 0.12)
+}
+.github>img{
+  width:25px;
+  vertical-align:bottom;
+  height:auto;
 }
