@@ -1,0 +1,38 @@
+header{
+  position: relative;
+  background-color: rgba(127, 122, 122, 0.1)
+}
+.web-logo{
+  display:inline-block;
+  max-width: 10%;
+  height: auto;
+}
+.web-logo>img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 80%;
+}
+.web-banner{
+  display: inline-block;
+}
+/*this body style*/
+section{
+  margin: auto;
+  width:45rem;
+}
+.section-container{
+  border-radius:5px;
+  margin:10px;
+  text-align: center;
+  position: relative;
+}
+.section-container>.Info{
+  padding:0;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
+  background-color:#343234;
+  color:white;
+}
+.tab-content{
+  text-align: left;
+}
