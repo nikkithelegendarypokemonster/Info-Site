@@ -1,58 +1,81 @@
-header{
+header {
   position: relative;
   background-color: rgba(127, 122, 122, 0.1)
 }
-.web-logo{
-  display:inline-block;
-  max-width: 10%;
+
+.web-logo {
+  display: inline-block;
+  max-width: 20%;
   height: auto;
 }
-.web-logo>img{
+
+.web-logo>img {
   max-width: 100%;
   height: auto;
   border-radius: 80%;
 }
-.web-banner{
+
+.web-banner {
   display: inline-block;
-  vertical-align:middle;
+  vertical-align: middle;
 }
+
 .text-responsive {
-  font-size: calc(100% + 1vw + 1vh)!important;
+  font-size: calc(100% + 1vw + 1vh) !important;
 }
+
 /*this body style*/
-section{
+section {
   margin: auto;
-  max-width:45rem;
+  max-width: 50rem;
 }
-.section-container{
-  border-radius:5px;
-  margin:10px;
+
+.section-container {
+  border-radius: 5px;
+  margin: 10px;
   text-align: center;
   position: relative;
 }
-.section-container>.Info{
-  padding:0;
-  border-top-right-radius:5px;
-  border-top-left-radius:5px;
-  background-color:#343234;
-  color:white;
+
+.section-container>.Info {
+  padding: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #343234;
+  color: white;
 }
-.tab-content{
+
+.tab-content {
   text-align: left;
 }
-.carousel{
-  min-height:431px;
+
+.carousel-item{
+  height: 100vh;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
 }
-.carousel, .jumbotron{
-  background-color: black !important;
-  color: white;
-  text-align: center;
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.7;
 }
-.carousel-control-prev:hover,.carousel-control-next:hover{
-  background-color: rgba(232, 239, 239, 0.12)
+
+.carousel-caption {
+  bottom: 230px !important;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.github>img{
-  width:25px;
-  vertical-align:bottom;
-  height:auto;
+
+.carousel-caption h5 {
+  font-size: 50px;
 }
