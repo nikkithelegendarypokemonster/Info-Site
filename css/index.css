@@ -79,3 +79,8 @@ section {
 .carousel-caption h5 {
   font-size: 50px;
 }
+.pop-container{
+  width:300px;
+  overflow:hidden;
+  height:150px;
+}
