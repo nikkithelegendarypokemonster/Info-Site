@@ -84,3 +84,17 @@ section {
   overflow:hidden;
   height:150px;
 }
+.logos{
+  justify-content: center;
+  align-items: center;
+}
+.logos>.images{
+  margin:5px;
+  margin-right: 5rem;
+  vertical-align:top;
+  text-align: center;
+}
+.logos>.images,img{
+  max-width:8rem;
+  height: 5rem;
+}
